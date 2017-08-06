@@ -20,6 +20,7 @@
   "dependencies": {
     "express": "^4.15.3",
     "trailpack-express": "^2.0.3",
+    "trailpack-realtime": "^2.0.0",
     "trailpack-repl": "v2-latest",
     "trailpack-router": "v2-latest",
     "trailpack-waterline": "^2.0.0-rc2",
