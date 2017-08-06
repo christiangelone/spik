@@ -1,0 +1,47 @@
+{
+  "name": "spik",
+  "version": "0.0.0",
+  "description": "A notification server for apps",
+  "homepage": "www.spik.io",
+  "author": {
+    "name": "Christian Angelone",
+    "email": "christiangelone@gmail.com",
+    "url": "www.christiangelone.blog"
+  },
+  "main": "index.js",
+  "keywords": [
+    "spik",
+    "notification",
+    "notifications",
+    "push",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "express": "^4.15.3",
+    "trailpack-express": "^2.0.3",
+    "trailpack-repl": "v2-latest",
+    "trailpack-router": "v2-latest",
+    "trailpack-waterline": "^2.0.0-rc2",
+    "trails": "v2-latest",
+    "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.11",
+    "eslint-config-trails": "^2",
+    "mocha": "^2.5",
+    "sails-memory": "^0.10.7",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "christiangelone/spik",
+  "license": "MIT"
+}
